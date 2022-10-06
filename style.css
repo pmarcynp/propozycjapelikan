@@ -96,11 +96,6 @@ body {
     font-size: max(9px, 1vw);
 }
 
-.bodycontainer {
-    min-height: 100%;
-    overflow: auto;
-}
-
 .creatorinfo {
     color: white;
 }
