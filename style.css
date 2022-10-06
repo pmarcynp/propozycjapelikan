@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.navbar {
+    background: #191919;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: sticky;
+    top: 0 !important;
+    z-index: 999;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 100;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.navbar_links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2vw;
+    height: 100%;
+}
+
+.navbar_item {
+    transform: skew(-20deg);
+    height: 100px;
+}
+
+.navbar_item :hover {
+    background: #0080FF;
+    height: 110%;
+}
+
+.navbar_logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbarlogo {
+    margin-top: 50%;
+    color: white;
+}
+
+
+
+
+.footercontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #191919;
+}
+
+.kontaktcontainer {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+.kontaktcontainer p {
+    display: inline-block;
+    width: 20vw;
+    font-size: max(9px, 1vw);
+}
+
+.bodycontainer {
+    min-height: 100%;
+    overflow: auto;
+}
+
+.creatorinfo {
+    color: white;
+}

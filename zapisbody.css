@@ -1,0 +1,48 @@
+body {
+    background-color: #191919;
+}
+
+.bodycontainer {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+.bgimage {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.formcontainer {
+    height: 70vh;
+    width: 60vw;
+    background-color: white;
+    position: absolute;
+    margin-top: 10vh;
+    border: 5px solid #0080FF;
+}
+
+.zapisform {
+    margin: 5vh 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitbtn {
+    height: 5vh;
+    width: 30vw;
+    margin: 5vh auto;
+    background-color: #0080FF;
+    color: white;
+    transform: skew(-20deg);
+    font-size: large;
+    border: none;
+}
+
+.submitbtn:hover {
+    background-color: white;
+    color: #0080FF;
+    border: 5px solid #0080FF;
+}
